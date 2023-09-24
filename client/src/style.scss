@@ -1,0 +1,230 @@
+.form1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  label {
+    margin: 0;
+    padding: 0;
+  }
+
+  input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid gray;
+  }
+
+  select {
+    width: 250px;
+  }
+
+  button {
+    width: 250px;
+  }
+}
+
+//employee.jsx
+.employee_table{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 12px;
+
+  .addbtn{
+    padding: 5px 20px;
+    background-color: rgb(42, 161, 235);
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    margin: 8px 5px;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .addbtn:hover{
+    background-color: rgb(84, 183, 245);
+  }
+
+  .linkbtn{
+    padding: 5px 20px;
+    background-color: rgb(42, 161, 235);
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 5px;
+    text-decoration: none;
+    display: inline-block;
+
+  }
+
+  .linkbtn:hover{
+    background-color: rgb(84, 183, 245);
+  }
+
+  
+  .table, th, tr, td{
+    padding: 5px 15px;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+    .deletebtn{
+      padding: 5px 10px;
+      background-color: rgb(202, 9, 38);
+      color: white;
+      outline: none;
+      border-radius: 5px;
+      border: none;
+      margin-right: 10px;
+    }
+    .deletebtn:hover{
+      background-color: rgb(223, 34, 62);
+    }
+
+    .updatebtn{
+      padding: 5px 10px;
+      background-color: rgb(39, 177, 59);
+      text-decoration: none;
+        color: white;
+      outline: none;
+      border-radius: 5px;
+      border: none;
+      margin-right: 10px;
+    }
+    .updatebtn:hover{
+      background-color: rgb(57, 205, 79);
+    }
+
+    img{
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+    }
+    
+  }
+}
+//end employee.jsx
+
+//update.jsx
+.updateform{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 11px;
+
+  .form{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+
+    .input {
+      width: 100%;
+
+       input, select{
+        margin-top: 5px;
+        font-size: 11px;
+        width: 100%;
+        border-radius: 5px;
+        padding: 8px 10px;
+        outline: none;
+        border: 0.5px solid grey;
+        display: inline-block;
+        box-sizing: border-box;
+      }
+    }
+
+     img{
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+     }
+
+     .updatebtn{
+      padding: 5px 10px;
+      background-color: rgb(39, 177, 59);
+      text-decoration: none;
+      color: white;
+      outline: none;
+      border-radius: 5px;
+      border: none;
+      margin-top: 10px;
+      width: 100%;
+      display: block;
+    }
+    .updatebtn:hover{
+      background-color: rgb(57, 205, 79);
+    }
+  }
+}
+//end update.jsx
+
+//addform.jsx
+.addform{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 11px;
+
+  .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+
+    .input {
+      width: 100%;
+
+       input, select{
+        margin-top: 5px;
+        font-size: 11px;
+        width: 100%;
+        border-radius: 5px;
+        padding: 8px 10px;
+        outline: none;
+        border: 0.5px solid grey;
+        display: inline-block;
+        box-sizing: border-box;
+      }
+      
+    }
+
+     img{
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+     }
+
+     .updatebtn{
+      padding: 5px 10px;
+      background-color: rgb(39, 177, 59);
+      text-decoration: none;
+      color: white;
+      outline: none;
+      border-radius: 5px;
+      border: none;
+      margin-top: 10px;
+      width: 100%;
+      display: block;
+    }
+    .updatebtn:hover{
+      background-color: rgb(57, 205, 79);
+    }
+  }
+}
+
