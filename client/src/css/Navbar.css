@@ -1,0 +1,108 @@
+/* src/index.css or src/App.css */
+@import "~font-awesome/css/font-awesome.css";
+
+nav {
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    transition: all 0.5s ease;
+    top: 0;
+    padding: 0 10%;
+    height: 7.5rem;
+    background-color: var(--background);
+  }
+  
+  nav .logo {
+    float: left;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  nav .logo-image {
+    width: auto;
+    height: 60%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav .logo_name{
+    font-size: clamp(2.4rem, -0.8rem + 2.56vw, 4rem);   
+    color: var(--grey);
+    font-weight: 600;
+    margin-left: 5px;
+  }
+  
+  nav .links {
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  
+  nav .links li {
+    list-style: none;
+  }
+  
+  nav .links a {
+    display: block;
+    margin: 1.8rem 1.8rem 0.5rem 1.8rem;
+    padding-bottom: 0.5rem;
+    font-size: clamp(1.6rem, 1.9vh, 2rem);
+    text-decoration: none;
+    position: relative;
+    color: white;
+  }
+  
+  nav .links a::after {
+    content: "";
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: bottom center;
+    transition: ease-in-out 0.25s;
+    background-color: var(--blue);
+    width: 100%;
+    height: 0.2rem;
+    bottom: 0;
+    left: 0;
+  }
+  
+  nav .links a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom center;
+    transition: ease-in-out 0.25s;
+  }
+  
+  #nav-toggle {
+    position: absolute;
+    top: -10rem;
+  }
+  
+  nav .icon-burger {
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 0.2rem solid var(--background);
+    border-radius: 0.5rem;
+  }
+  
+  nav .icon-burger .line {
+    background-color: var(--grey);
+    width: 2.6rem;
+    height: 0.3rem;
+    margin: 0.5rem;
+    border-radius: 3px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  nav .icon-burger:focus {
+    border: 0.2rem solid var(--blue);
+  }
