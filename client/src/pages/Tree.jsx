@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
 import axios from 'axios';
-import '../css/tree.css'; // Import the CSS file
+import '../css/Tree.css'; // Import the CSS file
 
 function Tree() {
   const [orgChart, setOrgChart] = useState([]);
