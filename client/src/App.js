@@ -4,6 +4,7 @@ import Employee from "./pages/Employee";
 import Update from "./pages/Update";
 import Tree from "./pages/Tree";
 import Navbar from "./components/Navbar";
+import Blank from "./pages/Blank";
 
 function App() {
   return (

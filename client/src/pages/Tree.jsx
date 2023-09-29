@@ -60,7 +60,7 @@ function Tree() {
 
   return (
     <div>
-      <Link to="/employee">Edit</Link>
+      {/* <Link to="/employee">Edit</Link> */}
       <div className="tree">
         <div id="orgChart"></div>
       </div>
