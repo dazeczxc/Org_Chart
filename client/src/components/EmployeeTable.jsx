@@ -8,9 +8,14 @@ const EmployeeTable = () => {
           <table className="table-auto w-full">
             <thead className="sticky top-0 bg-blue-100">
               <tr>
-                <th className="border px-4 py-2">Header 1</th>
-                <th className="border px-4 py-2">Header 2</th>
-                <th className="border px-4 py-2">Header 3</th>
+                <th className="border px-4 py-2">Type</th>
+                <th className="border px-4 py-2">New Page?</th>
+                <th className="border px-4 py-2">Order</th>
+                <th className="border px-4 py-2">Name</th>
+                <th className="border px-4 py-2">Position</th>
+                <th className="border px-4 py-2">Parent</th>
+                <th className="border px-4 py-2">Image</th>
+
               </tr>
             </thead>
             <tbody>
@@ -19,132 +24,238 @@ const EmployeeTable = () => {
                 <td className="border px-4 py-2">Row 1, Cell 1</td>
                 <td className="border px-4 py-2">Row 1, Cell 2</td>
                 <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+
               </tr>
               <tr>
                 <td className="border px-4 py-2">Row 2, Cell 1</td>
                 <td className="border px-4 py-2">Row 2, Cell 2</td>
                 <td className="border px-4 py-2">Row 2, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
               </tr>
               <tr>
                 <td className="border px-4 py-2">Row 3, Cell 1</td>
                 <td className="border px-4 py-2">Row 3, Cell 2</td>
                 <td className="border px-4 py-2">Row 3, Cell 3</td>
-              </tr>
-              <tr>
-                <td className="border px-4 py-2">Row 2, Cell 1</td>
-                <td className="border px-4 py-2">Row 2, Cell 2</td>
-                <td className="border px-4 py-2">Row 2, Cell 3</td>
-              </tr>
-              <tr>
-                <td className="border px-4 py-2">Row 1, Cell 1</td>
-                <td className="border px-4 py-2">Row 1, Cell 2</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
                 <td className="border px-4 py-2">Row 1, Cell 3</td>
               </tr>
               <tr>
                 <td className="border px-4 py-2">Row 2, Cell 1</td>
                 <td className="border px-4 py-2">Row 2, Cell 2</td>
                 <td className="border px-4 py-2">Row 2, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
               </tr>
               <tr>
                 <td className="border px-4 py-2">Row 1, Cell 1</td>
                 <td className="border px-4 py-2">Row 1, Cell 2</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
                 <td className="border px-4 py-2">Row 1, Cell 3</td>
               </tr>
               <tr>
                 <td className="border px-4 py-2">Row 2, Cell 1</td>
                 <td className="border px-4 py-2">Row 2, Cell 2</td>
                 <td className="border px-4 py-2">Row 2, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
               </tr>
               <tr>
                 <td className="border px-4 py-2">Row 1, Cell 1</td>
                 <td className="border px-4 py-2">Row 1, Cell 2</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
                 <td className="border px-4 py-2">Row 1, Cell 3</td>
               </tr>
               <tr>
                 <td className="border px-4 py-2">Row 2, Cell 1</td>
                 <td className="border px-4 py-2">Row 2, Cell 2</td>
                 <td className="border px-4 py-2">Row 2, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
               </tr>
               <tr>
                 <td className="border px-4 py-2">Row 1, Cell 1</td>
                 <td className="border px-4 py-2">Row 1, Cell 2</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
                 <td className="border px-4 py-2">Row 1, Cell 3</td>
               </tr>
               <tr>
                 <td className="border px-4 py-2">Row 2, Cell 1</td>
                 <td className="border px-4 py-2">Row 2, Cell 2</td>
                 <td className="border px-4 py-2">Row 2, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
               </tr>
               <tr>
                 <td className="border px-4 py-2">Row 1, Cell 1</td>
                 <td className="border px-4 py-2">Row 1, Cell 2</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
                 <td className="border px-4 py-2">Row 1, Cell 3</td>
               </tr>
               <tr>
                 <td className="border px-4 py-2">Row 2, Cell 1</td>
                 <td className="border px-4 py-2">Row 2, Cell 2</td>
                 <td className="border px-4 py-2">Row 2, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
               </tr>
               <tr>
                 <td className="border px-4 py-2">Row 1, Cell 1</td>
                 <td className="border px-4 py-2">Row 1, Cell 2</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
                 <td className="border px-4 py-2">Row 1, Cell 3</td>
               </tr>
               <tr>
                 <td className="border px-4 py-2">Row 2, Cell 1</td>
                 <td className="border px-4 py-2">Row 2, Cell 2</td>
                 <td className="border px-4 py-2">Row 2, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
               </tr>
               <tr>
                 <td className="border px-4 py-2">Row 1, Cell 1</td>
                 <td className="border px-4 py-2">Row 1, Cell 2</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
                 <td className="border px-4 py-2">Row 1, Cell 3</td>
               </tr>
               <tr>
                 <td className="border px-4 py-2">Row 2, Cell 1</td>
                 <td className="border px-4 py-2">Row 2, Cell 2</td>
                 <td className="border px-4 py-2">Row 2, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
               </tr>
               <tr>
                 <td className="border px-4 py-2">Row 1, Cell 1</td>
                 <td className="border px-4 py-2">Row 1, Cell 2</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
                 <td className="border px-4 py-2">Row 1, Cell 3</td>
               </tr>
               <tr>
                 <td className="border px-4 py-2">Row 2, Cell 1</td>
                 <td className="border px-4 py-2">Row 2, Cell 2</td>
                 <td className="border px-4 py-2">Row 2, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
               </tr>
               <tr>
                 <td className="border px-4 py-2">Row 1, Cell 1</td>
                 <td className="border px-4 py-2">Row 1, Cell 2</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
                 <td className="border px-4 py-2">Row 1, Cell 3</td>
               </tr>
               <tr>
                 <td className="border px-4 py-2">Row 2, Cell 1</td>
                 <td className="border px-4 py-2">Row 2, Cell 2</td>
                 <td className="border px-4 py-2">Row 2, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
               </tr>
               <tr>
                 <td className="border px-4 py-2">Row 1, Cell 1</td>
                 <td className="border px-4 py-2">Row 1, Cell 2</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
                 <td className="border px-4 py-2">Row 1, Cell 3</td>
               </tr>
               <tr>
                 <td className="border px-4 py-2">Row 2, Cell 1</td>
                 <td className="border px-4 py-2">Row 2, Cell 2</td>
                 <td className="border px-4 py-2">Row 2, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
               </tr>
               <tr>
                 <td className="border px-4 py-2">Row 1, Cell 1</td>
                 <td className="border px-4 py-2">Row 1, Cell 2</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
                 <td className="border px-4 py-2">Row 1, Cell 3</td>
               </tr>
               <tr>
                 <td className="border px-4 py-2">Row 2, Cell 1</td>
                 <td className="border px-4 py-2">Row 2, Cell 2</td>
                 <td className="border px-4 py-2">Row 2, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
               </tr>
+              <tr>
+                <td className="border px-4 py-2">Row 1, Cell 1</td>
+                <td className="border px-4 py-2">Row 1, Cell 2</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+              </tr>
+              <tr>
+                <td className="border px-4 py-2">Row 2, Cell 1</td>
+                <td className="border px-4 py-2">Row 2, Cell 2</td>
+                <td className="border px-4 py-2">Row 2, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+                <td className="border px-4 py-2">Row 1, Cell 3</td>
+              </tr>
+              
             </tbody>
           </table>
         </div>

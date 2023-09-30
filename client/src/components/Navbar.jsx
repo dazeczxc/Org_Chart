@@ -8,7 +8,7 @@ function Navbar() {
     <nav className="bg-blue-500 p-2 fixed top-0 w-full z-10">
       <ul className='navbar-nav'>
         <li className='nav-item'>
-        <Link to="/employee">Edit</Link>
+        <Link to="/admin">Admin</Link>
           {/* <a href="http://" className='icon-button'><FaBars/></a> */}
         </li>
 
