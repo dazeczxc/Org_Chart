@@ -59,8 +59,7 @@ function Tree() {
   }, [orgChart]);
 
   return (
-    <div>
-      {/* <Link to="/employee">Edit</Link> */}
+    <div className='tree-page'>
       <div className="tree">
         <div id="orgChart"></div>
       </div>
